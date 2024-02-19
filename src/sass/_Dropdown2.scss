@@ -1,0 +1,82 @@
+/* 下拉選單的外層容器，設定相對定位和透視效果 */
+.dropdown2 {
+  position: relative;
+  perspective: 200px;
+}
+
+/* 下拉選單按鈕的基本樣式 */
+.dropdown2 .dropdown2Link {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 72px;
+  color: #000;
+  background: transparent;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  font-family: "Euclid Circular A";
+}
+
+.dropdown2Link:hover{
+  color: $info;
+}
+
+/* 直接子按鈕樣式，設定層級、背景、過渡效果 */
+.dropdown2 > .dropdown2Link {
+  position: relative;
+  z-index: 2;
+  transition: 0.3s;
+}
+
+/* 下拉菜單的樣式，設定絕對定位、寬高、透明度 */
+.dropdown2Menu {
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  width: 200%;
+  max-height: 170px;
+  opacity: 0;
+  transform-origin: 100% 0%;
+  scale: 0;
+  visibility: hidden;
+  border-radius: 8px;
+  background: #8E6E53;
+  transition: 0.4s;
+}
+
+/* 下拉選單展開時的菜單樣式調整 */
+.dropdown2.open .dropdown2Menu {
+  scale: 1;
+  right: 10px;
+  top: 72px !important;
+  width: 150px;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+/* 菜單按鈕樣式 */
+.dropdown2Menu .dropdown2Link {
+  border: 0;
+  width: 100%;
+  height: 56px;
+  border-radius: 0;
+}
+
+/* 滑鼠懸停時菜單按鈕的背景色變化 */
+.dropdown2Menu .dropdown2Link:hover {
+  background: rgba(0, 0, 0, 0.26);
+}
+
+/* 顯示更多選項的向下箭頭圖標樣式 */
+.chevron {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+/* 下拉選單打開時旋轉箭頭圖標 */
+.dropdown2.open .chevron {
+  rotate: -180deg;
+}

@@ -1,0 +1,33 @@
+
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10%; /* 設定元件距離頂部的位置 */
+  z-index: 10; /* 確保元件在頁面中其他元素的上方 */
+  // background-color: white; /* 背景色設為白色或其他希望的顏色 */
+  box-shadow: 0 2px 5px rgba(0,0,0,.3); /* 可選擇添加陰影效果 */
+}
+
+.category-Filter {
+  z-index: 4;
+  position: fixed;
+  left: 50%;
+  bottom: 5px; // 调整位置，使其离底部有一定距离
+  transform: translateX(-50%); // 水平居中
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  max-width: 90%; // 设置最大宽度
+  background: #fff; // 添加背景色
+  box-shadow: 0 4px 8px rgb(0 0 0 / 20%); // 添加阴影
+  border-radius: 8px; // 圆角
+  padding: 5px; // 内部间距
+
+  .nav-link {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+}
