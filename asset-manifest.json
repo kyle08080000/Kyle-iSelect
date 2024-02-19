@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Kyle-iSelect/static/css/main.57e00f19.css",
+    "main.js": "/Kyle-iSelect/static/js/main.04c7a55e.js",
+    "static/js/787.7a66767e.chunk.js": "/Kyle-iSelect/static/js/787.7a66767e.chunk.js",
+    "static/media/design_mesh.jpg": "/Kyle-iSelect/static/media/design_mesh.82ee28bc3aacf5029460.jpg",
+    "static/media/design_crown.jpg": "/Kyle-iSelect/static/media/design_crown.db76dc4fd67ca6e52d50.jpg",
+    "static/media/bootstrap-icons.woff?": "/Kyle-iSelect/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/airpodsMax gray.png": "/Kyle-iSelect/static/media/airpodsMax gray.90e9b2289c7a9fbffe19.png",
+    "static/media/design_comfort__f5.jpeg": "/Kyle-iSelect/static/media/design_comfort__f5.5d6ffadf320897a0c4b7.jpeg",
+    "static/media/noOrder.png": "/Kyle-iSelect/static/media/noOrder.809ce0f931da37852d26.png",
+    "static/media/bootstrap-icons.woff2?": "/Kyle-iSelect/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/iPhone15Pro.png": "/Kyle-iSelect/static/media/iPhone15Pro.6e9af7a08db415f7a39a.png",
+    "static/media/airpods-max.png": "/Kyle-iSelect/static/media/airpods-max.64503950afbf19c90e0a.png",
+    "static/media/design_foam.jpg": "/Kyle-iSelect/static/media/design_foam.8f5ecc58ab2386ca5ad9.jpg",
+    "static/media/cartIsclean.png": "/Kyle-iSelect/static/media/cartIsclean.88e41d52e64851bfc915.png",
+    "static/media/mac.png": "/Kyle-iSelect/static/media/mac.9cad2e29591bc542e02d.png",
+    "static/media/logo3.png": "/Kyle-iSelect/static/media/logo3.c4c4f66e0e96d469e94c.png",
+    "static/media/logo4.png": "/Kyle-iSelect/static/media/logo4.2f27b6ea9a97378e3cd0.png",
+    "static/media/logoLg.png": "/Kyle-iSelect/static/media/logoLg.c41541af9e34d0fadb01.png",
+    "index.html": "/Kyle-iSelect/index.html",
+    "static/media/close.svg": "/Kyle-iSelect/static/media/close.bc7119ff3af170452b7e.svg",
+    "static/media/menu.svg": "/Kyle-iSelect/static/media/menu.63affd7da500b522b9a4.svg",
+    "main.57e00f19.css.map": "/Kyle-iSelect/static/css/main.57e00f19.css.map",
+    "main.04c7a55e.js.map": "/Kyle-iSelect/static/js/main.04c7a55e.js.map",
+    "787.7a66767e.chunk.js.map": "/Kyle-iSelect/static/js/787.7a66767e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57e00f19.css",
+    "static/js/main.04c7a55e.js"
+  ]
+}
