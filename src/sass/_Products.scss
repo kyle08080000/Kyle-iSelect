@@ -1,0 +1,9 @@
+.product-img{
+  height: 250px;
+}
+
+@media (min-width: 992px){
+  .product-img{
+    height: 260px;
+  }
+}

@@ -1,0 +1,80 @@
+.login-error{
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+
+.login-choice{
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $secondary;
+}
+
+.LoginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.LoginCard {
+  display: flex;
+  flex-direction: row; /* 水平排列 */
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.WelcomeBack {
+  background-color: $secondary; /* 根據您的圖片調整顏色 */
+  color: white;
+  padding: 3rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1{
+    color: $primary;
+    margin-bottom: 0;
+  }
+}
+
+.LoginForm {
+  padding: 3rem;
+  width: 50%;
+  // background-color: #f8f9fa;
+
+  .LoginForm-p{
+    color: $gray-600;
+  }
+
+  h2 {
+    color: $info; /* 根據您的圖片調整顏色 */
+  }
+}
+
+
+/* 手機模式 */
+@media (max-width: 768px) {
+  .LoginCard {
+    flex-direction: column; /* 垂直排列，並反轉順序，使LoginForm在上 */
+    width: 85%;
+  }
+
+  .WelcomeBack,
+  .LoginForm {
+    width: 100%; /* 子元素寬度設定為100%，使其填滿父元素寬度 */
+  }
+}
+
+/* 平板模式 */
+@media (min-width: 768px) {
+  .LoginCard {
+    width: 80%; 
+  }
+}

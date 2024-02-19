@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EDE9E9;
+}
+
+/* 其他全局樣式可以在這裡定義 */
+a {
+  text-decoration: none;
+}
+
+img {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* 标准语法 */
+  pointer-events: none; /* 禁止元素成为鼠标事件的目标 */
+}
+
+
+@media (min-width: 576px) {
+  .list-group-horizontal-sm {
+    flex-direction: column;
+  }
+  .list-group-horizontal-sm > .list-group-item {
+    display: block;
+  }
+}
+
+.circle {
+  width: 60px;       // 圓形的寬度
+  height: 60px;      // 圓形的高度
+  // background-color: #3498db;  // 圓形的背景顏色
+  border-radius: 50%;  // 使元素的角變成圓形
+  // 其他任何需要的樣式，如邊框等
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.AddToCartButton {
+  position: absolute;
+  top: 12rem;
+  right: .2rem;
+  font-size: 1.5rem;
+}
+
+/* 淡入動畫 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 淡出動畫 */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s forwards; /* 動畫時間可以根據需要調整 */
+}
+
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px){
+  .AddToCartButton {
+    top: 13rem;
+  }
+}
